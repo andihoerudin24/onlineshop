@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Store Ayolearn</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- load custom css -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- load font awesome untuk icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="hidden-xs small-navbar">
+      <div class="container">
+        <ul class="sn-left nav navbar-nav pull-left">
+          <li><a href="#">MY ACCOUNT</a></li>
+          <li><a href="#">MY CART</a></li>
+          <li><a href="#">MY WISHLST</a></li>
+          <li><a href="#">CHECKOUT</a></li>
+        </ul>
+        <ul class="sn-right nav navbar-nav pull-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LANGUAGE: INDONESIA &nbsp;<span class="fa fa-chevron-down"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">ENGLAND</a></li>
+              <li><a href="#">FRANCE</a></li>
+              <li><a href="#">EURO</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CURRENCY: IDR &nbsp;<span class="fa fa-chevron-down"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">USD</a></li>
+              <li><a href="#">FR</a></li>
+              <li><a href="#">EU</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- container -->
+    </div><!-- small navbar -->
+
+    <nav class="big-navbar navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">MAN</a></li>
+            <li><a href="#">ACCESSORIES</a></li>
+            <li><a href="#">OTHER</a></li>
+          </ul>
+          <ul class="visible-xs nav navbar-nav navbar-left">
+            <li><a href="#">MY ACCOUNT</a></li>
+            <li><a href="#">MY CART</a></li>
+            <li><a href="#">MY WISHLIST</a></li>
+            <li><a href="#">CHECKOUT</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LANGUAGE: INDONESIA &nbsp;<span class="fa fa-chevron-down"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">ENGLAND</a></li>
+                <li><a href="#">FRANCE</a></li>
+                <li><a href="#">EURO</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CURRENCY: IDR &nbsp;<span class="fa fa-chevron-down"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">USD</a></li>
+                <li><a href="#">FR</a></li>
+                <li><a href="#">EU</a></li>
+              </ul>
+            </li>
+          </ul>
+          <a class="hidden-xs" href="#"><img src="img/logo-ayostore.png" style="margin-left: 80px; margin-top: 10px;"></a>
+          <form method="POST" action="" class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="bn-search form-control" placeholder="Search">
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-search"><i class="fa fa-search fa-lg"></i></button>
+            </div>
+            <a class="btn btn-cart"><i class="fa fa-shopping-cart fa-lg"></i> <span class="badge badge-primary">5</span>
+            </a>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="carousel-example-generic" class="homepage-slider carousel slide" data-ride="carousel">
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/banner-1.png" alt="Promo akhir pekan raya ...">
+        </div>
+        <div class="item">
+          <img src="img/banner-2.png" alt="Diskon bersama rakyat ...">
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <img src="img/btn-prev-slider.png" />
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <img src="img/btn-next-slider.png" />
+      </a>
+    </div>
+
+    <div class="features-homepage container">
+      <div class="row">
+        <div class="fh-item col-md-3">
+          <img src="img/fh-1.png" class="fhi-icon pull-left img-responsive" />
+          <h5>FREE SHIPMENT</h5>
+          <h6>GRATIS BIAYA KIRIM SEJABOTABEK</h6>
+        </div>
+        <div class="fh-item col-md-3">
+          <img src="img/fh-2.png" class="fhi-icon pull-left img-responsive" />
+          <h5>FREE GIFT VOUCHER</h5>
+          <h6>DOOR PRIZE ANYTIME</h6>
+        </div>
+        <div class="fh-item col-md-3">
+          <img src="img/fh-3.png" class="fhi-icon pull-left img-responsive" />
+          <h5>FULL SUPPORT</h5>
+          <h6>DAPATKAN 24 JAM FREE SUPPORT</h6>
+        </div>
+        <div class="fh-item col-md-3">
+          <img src="img/fh-4.png" class="fhi-icon pull-left img-responsive" />
+          <h5>SECURITY PAYMENT</h5>
+          <h6>PENGUNCIAN CREDIT CARD</h6>
+        </div>
+      </div><!-- row -->
+    </div><!-- features-homepage -->
+
+    <div class="content-homepage">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="header-title">NEW ARRIVAL</h3>
+          </div>
+          <div class="col-md-6">
+            <ul class="menu-right nav pull-right">
+              <li><a href="#">WOMAN</a>
+              <li><a href="#">MAN</a>
+              <li><a href="#">ACCESSORIES</a>
+              <li><a href="#"><span class="fa fa-th-list"></span></a>
+              <li><a href="#"><span class="fa fa-th-large"></span></a>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="ch-produk-item col-md-3">
+            <span class="badge-item">SALE</span>
+            <div class="link-action">
+              <a href="#" class="btn-cart btn"><span class="fa fa-shopping-cart"></span> ADD TO CART</a>
+              <a href="#" class="btn-view btn"><span class="fa fa-eye"></span></a>
+              <a href="#" class="btn-like btn"><span class="fa fa-heart"></span></a>
+            </div>
+            <img class="img-produk-item img-responsive" src="img/produk-1.png" />
+            <a href="#"><h4 class="text-center">Summer Jacket</h4></a>
+            <p class="text-center">Rp. 290.000,00-</p>
+          </div>
+          <div class="ch-produk-item col-md-3">
+            <span class="badge-item">SALE</span>
+            <div class="link-action">
+              <a href="#" class="btn-cart btn"><span class="fa fa-shopping-cart"></span> ADD TO CART</a>
+              <a href="#" class="btn-view btn"><span class="fa fa-eye"></span></a>
+              <a href="#" class="btn-like btn"><span class="fa fa-heart"></span></a>
+            </div>
+            <img class="img-produk-item img-responsive" src="img/produk-2.png" />
+            <a href="#"><h4 class="text-center">Summer Jacket</h4></a>
+            <p class="text-center">Rp. 290.000,00-</p>
+          </div>
+          <div class="ch-produk-item col-md-3">
+            <span class="badge-item">SALE</span>
+            <div class="link-action">
+              <a href="#" class="btn-cart btn"><span class="fa fa-shopping-cart"></span> ADD TO CART</a>
+              <a href="#" class="btn-view btn"><span class="fa fa-eye"></span></a>
+              <a href="#" class="btn-like btn"><span class="fa fa-heart"></span></a>
+            </div>
+            <img class="img-produk-item img-responsive" src="img/produk-2.png" />
+            <a href="#"><h4 class="text-center">Summer Jacket</h4></a>
+            <p class="text-center">Rp. 290.000,00-</p>
+          </div>
+          <div class="ch-produk-item col-md-3">
+            <span class="badge-item">SALE</span>
+            <div class="link-action">
+              <a href="#" class="btn-cart btn"><span class="fa fa-shopping-cart"></span> ADD TO CART</a>
+              <a href="#" class="btn-view btn"><span class="fa fa-eye"></span></a>
+              <a href="#" class="btn-like btn"><span class="fa fa-heart"></span></a>
+            </div>
+            <img class="img-produk-item img-responsive" src="img/produk-1.png" />
+            <a href="#"><h4 class="text-center">Summer Jacket</h4></a>
+            <p class="text-center">Rp. 290.000,00-</p>
+          </div>
+        </div>
+        <div class="ch-produk-item col-md-3">
+            <span class="badge-item">SALE</span>
+            <div class="link-action">
+              <a href="#" class="btn-cart btn"><span class="fa fa-shopping-cart"></span> ADD TO CART</a>
+              <a href="#" class="btn-view btn"><span class="fa fa-eye"></span></a>
+              <a href="#" class="btn-like btn"><span class="fa fa-heart"></span></a>
+            </div>
+            <img class="img-produk-item img-responsive" src="img/produk-2.png" />
+            <a href="#"><h4 class="text-center">Summer Jacket</h4></a>
+            <p class="text-center">Rp. 290.000,00-</p>
+          </div>
+          <div class="ch-produk-item col-md-3">
+            <span class="badge-item">SALE</span>
+            <div class="link-action">
+              <a href="#" class="btn-cart btn"><span class="fa fa-shopping-cart"></span> ADD TO CART</a>
+              <a href="#" class="btn-view btn"><span class="fa fa-eye"></span></a>
+              <a href="#" class="btn-like btn"><span class="fa fa-heart"></span></a>
+            </div>
+            <img class="img-produk-item img-responsive" src="img/produk-2.png" />
+            <a href="#"><h4 class="text-center">Summer Jacket</h4></a>
+            <p class="text-center">Rp. 290.000,00-</p>
+          </div>
+          <div class="ch-produk-item col-md-3">
+            <span class="badge-item">SALE</span>
+            <div class="link-action">
+              <a href="#" class="btn-cart btn"><span class="fa fa-shopping-cart"></span> ADD TO CART</a>
+              <a href="#" class="btn-view btn"><span class="fa fa-eye"></span></a>
+              <a href="#" class="btn-like btn"><span class="fa fa-heart"></span></a>
+            </div>
+            <img class="img-produk-item img-responsive" src="img/produk-1.png" />
+            <a href="#"><h4 class="text-center">Summer Jacket</h4></a>
+            <p class="text-center">Rp. 290.000,00-</p>
+          </div>
+          <div class="ch-produk-item col-md-3">
+            <span class="badge-item">SALE</span>
+            <div class="link-action">
+              <a href="#" class="btn-cart btn"><span class="fa fa-shopping-cart"></span> ADD TO CART</a>
+              <a href="#" class="btn-view btn"><span class="fa fa-eye"></span></a>
+              <a href="#" class="btn-like btn"><span class="fa fa-heart"></span></a>
+            </div>
+            <img class="img-produk-item img-responsive" src="img/produk-1.png" />
+            <a href="#"><h4 class="text-center">Summer Jacket</h4></a>
+            <p class="text-center">Rp. 290.000,00-</p>
+          </div>
+        </div>
+
+      </div>
+    </div><!-- content-homepage -->
+
+    <div class="footer-yourstore">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/logo-ayostore.png" class="logo-footer img-responsive" />
+            <p class="about-footer">
+              Yourstore adalah sebuah platform yang bisa kamu gunakan untuk membeli sebuah barang atau baju serta perlengkapan rumah lainnya secara online.
+            </p>
+          </div>
+          <div class="col-md-2">
+            <ul class="nav">
+              <li><h4 class="about-footer">FEATURES</h4></li>
+              <li><a href="#">Developer</a></li>
+              <li><a href="#">APIs</a></li>
+              <li><a href="#">Jobs</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="nav">
+              <li><h4 class="about-footer">QUICK LINKS</h4></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Promo</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="nav">
+              <li><h4 class="about-footer">ACCOUNT</h4></li>
+              <li><a href="#">MY ACCOUNT</a></li>
+              <li><a href="#">MY CART</a></li>
+              <li><a href="#">CHECKOUT</a></li>
+              <li><a href="#">MY WISHLIST</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="nav">
+              <li><h4 class="about-footer">CONTACT US</h4></li>
+              <li><a href="#"><span class="fa fa-phone"></span> +628 99 8501 870</a></li>
+              <li><a href="#"><span class="fa fa-fax"></span> +621 55099 993</a></li>
+              <li><a href="#"><span class="fa fa-location-arrow"></span> Komp. Inkopad</a></li>
+              <li><a href="#"><span class="fa fa-mail-forward"></span> hi@ayolearn.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div><!-- footer-yourstore -->
+
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <p class="text-center">All Right Reserved yourstore 2016</p>
+        </div>
+      </div>
+    </div><!-- footer-copyright -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
